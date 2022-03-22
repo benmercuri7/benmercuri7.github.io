@@ -1,0 +1,604 @@
+.contract-fees-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+}
+.contract-fees-top-nav-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 2px;
+  justify-content: flex-start;
+}
+.contract-fees-home {
+  top: 13px;
+  fill: #615a9b;
+  right: 181px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.contract-fees-profile {
+  top: 13px;
+  fill: #615a9b;
+  right: 124px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.contract-fees-settings {
+  top: 13px;
+  fill: #615A9B;
+  right: 67px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.contract-fees-logo {
+  top: 10px;
+  left: 32px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+}
+.contract-fees-side-nav-bar {
+  top: 48px;
+  left: 0px;
+  width: 293px;
+  height: 954px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: center;
+}
+.contract-fees-loan-name {
+  top: 34px;
+  left: 32px;
+  position: absolute;
+  font-size: 18px;
+}
+.contract-fees-supplementary-contracts {
+  top: 134px;
+  left: 32px;
+  position: absolute;
+}
+.contract-fees-navlink {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-miscellaneous {
+  top: 174px;
+  left: 32px;
+  width: 138px;
+  position: absolute;
+}
+.contract-fees-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contract-fees-miscellaneous1 {
+  top: 214px;
+  left: 32px;
+  width: 122px;
+  position: absolute;
+}
+.contract-fees-navlink1 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-miscellaneous2 {
+  top: 254px;
+  left: 32px;
+  width: 122px;
+  position: absolute;
+}
+.contract-fees-navlink2 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-miscellaneous3 {
+  top: 294px;
+  left: 32px;
+  width: 122px;
+  position: absolute;
+}
+.contract-fees-navlink3 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-miscellaneous4 {
+  top: 334px;
+  left: 32px;
+  width: 122px;
+  position: absolute;
+}
+.contract-fees-navlink4 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-miscellaneous5 {
+  top: 374px;
+  left: 32px;
+  width: 122px;
+  position: absolute;
+}
+.contract-fees-text1 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contract-fees-file-validation-signatures {
+  top: 94px;
+  left: 33px;
+  position: absolute;
+}
+.contract-fees-navlink5 {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-check {
+  top: 138px;
+  fill: #0E9084;
+  left: 159px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.contract-fees-check1 {
+  top: 97px;
+  fill: #0E9084;
+  left: 132px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.contract-fees-check2 {
+  top: 88px;
+  fill: #0E9084;
+  left: 438px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.contract-fees-transaction-due-diligence {
+  top: 82px;
+  left: 667px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
+.contract-fees-file-due-diligence {
+  top: 82px;
+  left: 475px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.contract-fees-initial-file-validation {
+  top: 447px;
+  left: 342px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contract-fees-initial-file-validation1 {
+  top: 147px;
+  left: 342px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contract-fees-inventory {
+  top: 82px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.contract-fees-slash {
+  top: 82px;
+  left: 651px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contract-fees-slash1 {
+  top: 82px;
+  left: 459px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contract-fees-do-you-have-the-file {
+  top: 298px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file01 {
+  top: 298px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file02 {
+  top: 491px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file03 {
+  top: 491px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file04 {
+  top: 598px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file05 {
+  top: 598px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file06 {
+  top: 598px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file07 {
+  top: 491px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file08 {
+  top: 298px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-do-you-have-the-file09 {
+  top: 191px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-this-an-original-contract {
+  top: 191px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-anything-handwritten {
+  top: 191px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-save {
+  top: 930px;
+  left: 785px;
+  right: 504px;
+  width: 151px;
+  bottom: 64px;
+  height: 30px;
+  position: absolute;
+  border-color: #615a9b;
+  border-radius: 12px;
+  background-color: #615a9b;
+}
+.contract-fees-text2 {
+  top: 7px;
+  left: 59px;
+  color: #ffffff;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.contract-fees-next {
+  top: 930px;
+  left: 1300px;
+  width: 90px;
+  bottom: 0px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.contract-fees-right-arrow {
+  top: 7px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.contract-fees-text3 {
+  top: 7px;
+  left: 28px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.contract-fees-textinput {
+  top: 358px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput01 {
+  top: 358px;
+  left: 719px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput02 {
+  top: 523px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput03 {
+  top: 523px;
+  left: 719px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput04 {
+  top: 658px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput05 {
+  top: 630px;
+  left: 719px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput06 {
+  top: 630px;
+  left: 342px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput07 {
+  top: 330px;
+  left: 342px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput08 {
+  top: 223px;
+  left: 342px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput09 {
+  top: 223px;
+  left: 719px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-textinput10 {
+  top: 223px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.contract-fees-radiobutton {
+  top: 330px;
+  left: 821px;
+  position: absolute;
+}
+.contract-fees-radiobutton1 {
+  top: 523px;
+  left: 444px;
+  position: absolute;
+}
+.contract-fees-radiobutton2 {
+  top: 630px;
+  left: 1204px;
+  position: absolute;
+}
+.contract-fees-radiobutton3 {
+  top: 330px;
+  left: 1204px;
+  position: absolute;
+}
+.contract-fees-radiobutton4 {
+  top: 330px;
+  left: 754px;
+  position: absolute;
+}
+.contract-fees-radiobutton5 {
+  top: 523px;
+  left: 377px;
+  position: absolute;
+}
+.contract-fees-radiobutton6 {
+  top: 630px;
+  left: 1139px;
+  position: absolute;
+}
+.contract-fees-radiobutton7 {
+  top: 330px;
+  left: 1139px;
+  position: absolute;
+}
+.contract-fees-is-there-a-cobuyer {
+  top: 328px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer1 {
+  top: 521px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer2 {
+  top: 628px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer3 {
+  top: 328px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer4 {
+  top: 328px;
+  left: 790px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer5 {
+  top: 521px;
+  left: 413px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer6 {
+  top: 628px;
+  left: 1171px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.contract-fees-is-there-a-cobuyer7 {
+  top: 328px;
+  left: 1171px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}

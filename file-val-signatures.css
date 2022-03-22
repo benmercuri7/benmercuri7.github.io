@@ -1,0 +1,587 @@
+.file-val-signatures-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+}
+.file-val-signatures-top-nav-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 2px;
+  justify-content: flex-start;
+}
+.file-val-signatures-home {
+  top: 13px;
+  fill: #615a9b;
+  right: 181px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.file-val-signatures-profile {
+  top: 13px;
+  fill: #615a9b;
+  right: 124px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.file-val-signatures-settings {
+  top: 13px;
+  fill: #615A9B;
+  right: 67px;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+}
+.file-val-signatures-logo {
+  top: 10px;
+  left: 32px;
+  width: 100px;
+  position: absolute;
+  object-fit: cover;
+}
+.file-val-signatures-side-nav-bar {
+  top: 48px;
+  left: 0px;
+  width: 293px;
+  height: 954px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: #cfcfcf;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: center;
+}
+.file-val-signatures-loan-name {
+  top: 34px;
+  left: 32px;
+  position: absolute;
+  font-size: 18px;
+}
+.file-val-signatures-miscellaneous {
+  top: 174px;
+  left: 32px;
+  position: absolute;
+}
+.file-val-signatures-navlink {
+  font-size: 12px;
+  text-decoration: none;
+}
+.file-val-signatures-supplementary-contracts {
+  top: 134px;
+  left: 32px;
+  position: absolute;
+}
+.file-val-signatures-navlink1 {
+  font-size: 12px;
+  text-decoration: none;
+}
+.file-val-signatures-file-validation-signatures {
+  top: 94px;
+  left: 33px;
+  position: absolute;
+}
+.file-val-signatures-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.file-val-signatures-transaction-due-diligence {
+  top: 82px;
+  left: 648px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
+.file-val-signatures-file-due-diligence {
+  top: 82px;
+  left: 456px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.file-val-signatures-signature-issues {
+  top: 395px;
+  left: 342px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.file-val-signatures-initial-file-validation {
+  top: 147px;
+  left: 342px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.file-val-signatures-inventory {
+  top: 82px;
+  left: 342px;
+  color: #615a9b;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.file-val-signatures-slash {
+  top: 82px;
+  left: 632px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.file-val-signatures-slash1 {
+  top: 82px;
+  left: 440px;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.file-val-signatures-do-you-have-the-file {
+  top: 191px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-this-an-original-contract {
+  top: 191px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-anything-handwritten {
+  top: 191px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-missing-cobuyer-signature {
+  top: 439px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-missing-buyer-signature {
+  top: 439px;
+  left: 720px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-missing-initials {
+  top: 571px;
+  left: 720px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-missing-dealer-signature {
+  top: 571px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-missing-signatures {
+  top: 439px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer {
+  top: 278px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer01 {
+  top: 221px;
+  left: 413px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer02 {
+  top: 310px;
+  left: 413px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer03 {
+  top: 468px;
+  left: 413px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer04 {
+  top: 602px;
+  left: 791px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer05 {
+  top: 607px;
+  left: 413px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer06 {
+  top: 468px;
+  left: 1171px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer07 {
+  top: 468px;
+  left: 791px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer08 {
+  top: 221px;
+  left: 791px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer09 {
+  top: 221px;
+  left: 1171px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer10 {
+  top: 221px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer11 {
+  top: 310px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer12 {
+  top: 468px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer13 {
+  top: 602px;
+  left: 720px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer14 {
+  top: 607px;
+  left: 342px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer15 {
+  top: 468px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer16 {
+  top: 468px;
+  left: 720px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer17 {
+  top: 221px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-is-there-a-cobuyer18 {
+  top: 221px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-save {
+  top: 930px;
+  left: 785px;
+  right: 504px;
+  width: 151px;
+  bottom: 64px;
+  height: 30px;
+  position: absolute;
+  border-color: #615a9b;
+  border-radius: 12px;
+  background-color: #615a9b;
+}
+.file-val-signatures-text1 {
+  top: 7px;
+  left: 59px;
+  color: #ffffff;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.file-val-signatures-buyer-entity {
+  top: 278px;
+  left: 1100px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-textinput {
+  top: 310px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-type-of-form {
+  top: 278px;
+  left: 719px;
+  color: #000000;
+  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
+}
+.file-val-signatures-textinput1 {
+  top: 498px;
+  left: 1100px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-textinput2 {
+  top: 638px;
+  left: 720px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-textinput3 {
+  top: 638px;
+  left: 342px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-textinput4 {
+  top: 498px;
+  left: 720px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-textinput5 {
+  top: 310px;
+  left: 719px;
+  width: 277px;
+  height: 30px;
+  position: absolute;
+  font-size: 12px;
+  border-color: #615a9b;
+  border-radius: 10px;
+}
+.file-val-signatures-next {
+  top: 930px;
+  left: 1300px;
+  width: 90px;
+  bottom: 0px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.file-val-signatures-right-arrow {
+  top: 7px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+.file-val-signatures-text2 {
+  top: 7px;
+  left: 28px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.file-val-signatures-radiobutton {
+  top: 223px;
+  left: 377px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton01 {
+  top: 223px;
+  left: 444px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton02 {
+  top: 312px;
+  left: 377px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton03 {
+  top: 312px;
+  left: 444px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton04 {
+  top: 470px;
+  left: 377px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton05 {
+  top: 604px;
+  left: 755px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton06 {
+  top: 609px;
+  left: 377px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton07 {
+  top: 470px;
+  left: 1139px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton08 {
+  top: 470px;
+  left: 755px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton09 {
+  top: 223px;
+  left: 757px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton10 {
+  top: 223px;
+  left: 824px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton11 {
+  top: 223px;
+  left: 1136px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton12 {
+  top: 223px;
+  left: 1204px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton13 {
+  top: 470px;
+  left: 444px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton14 {
+  top: 604px;
+  left: 822px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton15 {
+  top: 609px;
+  left: 444px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton16 {
+  top: 470px;
+  left: 1204px;
+  position: absolute;
+}
+.file-val-signatures-radiobutton17 {
+  top: 470px;
+  left: 822px;
+  position: absolute;
+}
