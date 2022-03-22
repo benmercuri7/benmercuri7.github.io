@@ -142,17 +142,18 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-text1 {
+.contract-fees-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
 }
 .contract-fees-file-validation-signatures {
   top: 94px;
   left: 33px;
   position: absolute;
 }
-.contract-fees-navlink5 {
+.contract-fees-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -354,7 +355,7 @@
   border-radius: 12px;
   background-color: #615a9b;
 }
-.contract-fees-text2 {
+.contract-fees-text1 {
   top: 7px;
   left: 59px;
   color: #ffffff;
@@ -380,7 +381,7 @@
   height: 15px;
   position: absolute;
 }
-.contract-fees-text3 {
+.contract-fees-text2 {
   top: 7px;
   left: 28px;
   margin: auto;

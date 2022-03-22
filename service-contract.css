@@ -142,17 +142,18 @@
   width: 122px;
   position: absolute;
 }
-.service-contract-text1 {
+.service-contract-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
 }
 .service-contract-file-validation-signatures {
   top: 94px;
   left: 33px;
   position: absolute;
 }
-.service-contract-navlink5 {
+.service-contract-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -361,7 +362,7 @@
   border-radius: 12px;
   background-color: #615a9b;
 }
-.service-contract-text3 {
+.service-contract-text2 {
   top: 7px;
   left: 59px;
   color: #ffffff;
@@ -387,7 +388,7 @@
   height: 15px;
   position: absolute;
 }
-.service-contract-text4 {
+.service-contract-text3 {
   top: 7px;
   left: 28px;
   margin: auto;

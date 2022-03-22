@@ -142,17 +142,18 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-text1 {
+.truthin-lending-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
 }
 .truthin-lending-file-validation-signatures {
   top: 94px;
   left: 33px;
   position: absolute;
 }
-.truthin-lending-navlink5 {
+.truthin-lending-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -329,7 +330,7 @@
   border-radius: 12px;
   background-color: #615a9b;
 }
-.truthin-lending-text2 {
+.truthin-lending-text1 {
   top: 7px;
   left: 59px;
   color: #ffffff;
@@ -355,7 +356,7 @@
   height: 15px;
   position: absolute;
 }
-.truthin-lending-text3 {
+.truthin-lending-text2 {
   top: 7px;
   left: 28px;
   margin: auto;

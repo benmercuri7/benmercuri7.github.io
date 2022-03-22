@@ -143,17 +143,18 @@
   width: 122px;
   position: absolute;
 }
-.data-match-text {
+.data-match-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
 }
 .data-match-file-validation-signatures {
   top: 94px;
   left: 33px;
   position: absolute;
 }
-.data-match-text1 {
+.data-match-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -297,7 +298,7 @@
   border-radius: 12px;
   background-color: #615a9b;
 }
-.data-match-text2 {
+.data-match-text1 {
   top: 7px;
   left: 59px;
   color: #ffffff;
@@ -323,7 +324,7 @@
   height: 15px;
   position: absolute;
 }
-.data-match-text3 {
+.data-match-text2 {
   top: 7px;
   left: 28px;
   margin: auto;
