@@ -376,37 +376,13 @@
   position: absolute;
   border-color: #615a9b;
   border-radius: 12px;
+  text-decoration: none;
   background-color: #615a9b;
 }
 .g-p-s-text2 {
   top: 7px;
   left: 59px;
   color: #ffffff;
-  margin: auto;
-  position: absolute;
-  font-size: 12px;
-  text-align: left;
-}
-.g-p-s-next {
-  top: 930px;
-  left: 1300px;
-  width: 90px;
-  bottom: 0px;
-  height: 30px;
-  border-color: #615a9b;
-  border-radius: 12px;
-  text-decoration: none;
-}
-.g-p-s-right-arrow {
-  top: 7px;
-  right: 10px;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-}
-.g-p-s-text3 {
-  top: 7px;
-  left: 28px;
   margin: auto;
   position: absolute;
   font-size: 12px;
