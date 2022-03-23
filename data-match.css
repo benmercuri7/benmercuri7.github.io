@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.data-match-navlink {
+  display: contents;
+}
 .data-match-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .data-match-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.data-match-navlink {
+.data-match-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +87,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink1 {
+.data-match-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +99,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink2 {
+.data-match-navlink3 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -107,7 +111,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink3 {
+.data-match-navlink4 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -119,7 +123,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink4 {
+.data-match-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -131,7 +135,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink5 {
+.data-match-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -143,7 +147,7 @@
   width: 122px;
   position: absolute;
 }
-.data-match-navlink6 {
+.data-match-navlink7 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -465,12 +469,15 @@
 .data-match-textinput13 {
   top: 223px;
   left: 342px;
+  color: #bf0000;
   width: 277px;
   height: 30px;
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput14 {
   top: 223px;
