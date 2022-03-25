@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.truthin-lending-navlink {
+  display: contents;
+}
 .truthin-lending-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .truthin-lending-side-nav-bar {
   top: 48px;
@@ -82,7 +86,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink {
+.truthin-lending-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -94,7 +98,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink1 {
+.truthin-lending-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -106,7 +110,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink2 {
+.truthin-lending-navlink3 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +122,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink3 {
+.truthin-lending-navlink4 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +134,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink4 {
+.truthin-lending-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +146,7 @@
   width: 122px;
   position: absolute;
 }
-.truthin-lending-navlink5 {
+.truthin-lending-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +157,7 @@
   left: 33px;
   position: absolute;
 }
-.truthin-lending-navlink6 {
+.truthin-lending-navlink7 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -473,4 +477,28 @@
   font-size: 12px;
   border-color: #615a9b;
   border-radius: 10px;
+}
+.truthin-lending-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.truthin-lending-text3 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.truthin-lending-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
 }

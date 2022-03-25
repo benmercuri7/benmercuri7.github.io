@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.g-a-p-navlink {
+  display: contents;
+}
 .g-a-p-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .g-a-p-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.g-a-p-navlink {
+.g-a-p-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +87,7 @@
   width: 138px;
   position: absolute;
 }
-.g-a-p-navlink1 {
+.g-a-p-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +99,7 @@
   width: 122px;
   position: absolute;
 }
-.g-a-p-navlink2 {
+.g-a-p-navlink3 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +122,7 @@
   width: 122px;
   position: absolute;
 }
-.g-a-p-navlink3 {
+.g-a-p-navlink4 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +134,7 @@
   width: 122px;
   position: absolute;
 }
-.g-a-p-navlink4 {
+.g-a-p-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +146,7 @@
   width: 122px;
   position: absolute;
 }
-.g-a-p-navlink5 {
+.g-a-p-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +157,7 @@
   left: 33px;
   position: absolute;
 }
-.g-a-p-navlink6 {
+.g-a-p-navlink7 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -406,7 +410,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-textinput02 {
   top: 375px;
@@ -416,7 +422,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-textinput03 {
   top: 420px;
@@ -486,7 +494,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-textinput10 {
   top: 268px;
@@ -526,7 +536,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-textinput14 {
   top: 223px;
@@ -536,7 +548,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-textinput15 {
   top: 223px;
@@ -546,7 +560,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .g-a-p-radiobutton {
   top: 375px;
@@ -573,4 +589,28 @@
   position: absolute;
   font-size: 14px;
   font-weight: 200;
+}
+.g-a-p-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.g-a-p-text4 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.g-a-p-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
 }

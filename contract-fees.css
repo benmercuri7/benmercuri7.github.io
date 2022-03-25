@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.contract-fees-navlink {
+  display: contents;
+}
 .contract-fees-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .contract-fees-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.contract-fees-navlink {
+.contract-fees-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -94,7 +98,7 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-navlink1 {
+.contract-fees-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -106,7 +110,7 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-navlink2 {
+.contract-fees-navlink3 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -118,7 +122,7 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-navlink3 {
+.contract-fees-navlink4 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -130,7 +134,7 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-navlink4 {
+.contract-fees-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +146,7 @@
   width: 122px;
   position: absolute;
 }
-.contract-fees-navlink5 {
+.contract-fees-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +157,7 @@
   left: 33px;
   position: absolute;
 }
-.contract-fees-navlink6 {
+.contract-fees-navlink7 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -602,4 +606,28 @@
   position: absolute;
   font-size: 14px;
   font-weight: 200;
+}
+.contract-fees-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.contract-fees-text3 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.contract-fees-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
 }

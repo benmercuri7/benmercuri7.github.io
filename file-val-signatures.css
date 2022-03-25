@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.file-val-signatures-navlink {
+  display: contents;
+}
 .file-val-signatures-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .file-val-signatures-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.file-val-signatures-navlink {
+.file-val-signatures-navlink1 {
   font-size: 12px;
   text-decoration: none;
 }
@@ -80,7 +84,7 @@
   left: 32px;
   position: absolute;
 }
-.file-val-signatures-navlink1 {
+.file-val-signatures-navlink2 {
   font-size: 12px;
   text-decoration: none;
 }

@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.supp-contracts-navlink {
+  display: contents;
+}
 .supp-contracts-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .supp-contracts-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.supp-contracts-navlink {
+.supp-contracts-navlink1 {
   font-size: 12px;
   text-decoration:  none;
 }
@@ -91,7 +95,7 @@
   left: 33px;
   position: absolute;
 }
-.supp-contracts-navlink1 {
+.supp-contracts-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -588,6 +592,30 @@
   font-size: 14px;
   font-weight: 200;
 }
+.supp-contracts-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.supp-contracts-text2 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.supp-contracts-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
 .supp-contracts-next {
   top: 930px;
   left: 1300px;
@@ -605,7 +633,7 @@
   height: 15px;
   position: absolute;
 }
-.supp-contracts-text2 {
+.supp-contracts-text3 {
   top: 7px;
   left: 28px;
   margin: auto;

@@ -424,7 +424,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput09 {
   top: 527px;
@@ -434,7 +436,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput10 {
   top: 527px;
@@ -444,7 +448,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput11 {
   top: 375px;
@@ -454,7 +460,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput12 {
   top: 375px;
@@ -464,12 +472,14 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput13 {
   top: 223px;
   left: 342px;
-  color: #bf0000;
+  color: #000000;
   width: 277px;
   height: 30px;
   position: absolute;
@@ -487,7 +497,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .data-match-textinput15 {
   top: 223px;
@@ -497,5 +509,31 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
+}
+.data-match-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.data-match-text3 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.data-match-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
 }

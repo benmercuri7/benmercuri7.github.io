@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.title-navlink {
+  display: contents;
+}
 .title-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .title-side-nav-bar {
   top: 48px;
@@ -71,7 +75,7 @@
   left: 32px;
   position: absolute;
 }
-.title-navlink {
+.title-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +87,7 @@
   width: 138px;
   position: absolute;
 }
-.title-navlink1 {
+.title-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +99,7 @@
   width: 122px;
   position: absolute;
 }
-.title-navlink2 {
+.title-navlink3 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -107,7 +111,7 @@
   width: 122px;
   position: absolute;
 }
-.title-navlink3 {
+.title-navlink4 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -119,7 +123,7 @@
   width: 144px;
   position: absolute;
 }
-.title-navlink4 {
+.title-navlink5 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +146,7 @@
   width: 122px;
   position: absolute;
 }
-.title-navlink5 {
+.title-navlink6 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +157,7 @@
   left: 33px;
   position: absolute;
 }
-.title-navlink6 {
+.title-navlink7 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -464,7 +468,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .title-textinput07 {
   top: 268px;
@@ -504,7 +510,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .title-textinput11 {
   top: 223px;
@@ -514,7 +522,9 @@
   position: absolute;
   font-size: 12px;
   border-color: #615a9b;
+  border-width: 0px;
   border-radius: 10px;
+  background-color: #e2e2e2;
 }
 .title-radiobutton {
   top: 375px;
@@ -593,4 +603,28 @@
   position: absolute;
   font-size: 14px;
   font-weight: 200;
+}
+.title-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.title-text4 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.title-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
 }

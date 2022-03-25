@@ -39,12 +39,16 @@
   height: 26px;
   position: absolute;
 }
+.misc-navlink {
+  display: contents;
+}
 .misc-logo {
   top: 10px;
   left: 32px;
   width: 100px;
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .misc-side-nav-bar {
   top: 48px;
@@ -82,7 +86,7 @@
   left: 32px;
   position: absolute;
 }
-.misc-navlink {
+.misc-navlink1 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -93,7 +97,7 @@
   left: 33px;
   position: absolute;
 }
-.misc-navlink1 {
+.misc-navlink2 {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -656,5 +660,29 @@
 .misc-radiobutton25 {
   top: 223px;
   left: 1204px;
+  position: absolute;
+}
+.misc-last {
+  top: 930px;
+  left: 1150px;
+  width: 90px;
+  height: 30px;
+  border-color: #615a9b;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.misc-text3 {
+  top: 7px;
+  left: 33px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+}
+.misc-left-arrow {
+  top: 7px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
   position: absolute;
 }
