@@ -1,3 +1,190 @@
+<template>
+  <div class="truthin-lending-container">
+    <div class="truthin-lending-top-nav-bar">
+      <svg viewBox="0 0 1024 1024" class="truthin-lending-home">
+        <path d="M512 128l342 256v512h-214v-298h-256v298h-214v-512z"></path></svg
+      ><svg viewBox="0 0 731.4285714285713 1024" class="truthin-lending-profile">
+        <path
+          d="M731.429 799.429c0 83.429-54.857 151.429-121.714 151.429h-488c-66.857 0-121.714-68-121.714-151.429 0-150.286 37.143-324 186.857-324 46.286 45.143 109.143 73.143 178.857 73.143s132.571-28 178.857-73.143c149.714 0 186.857 173.714 186.857 324zM585.143 292.571c0 121.143-98.286 219.429-219.429 219.429s-219.429-98.286-219.429-219.429 98.286-219.429 219.429-219.429 219.429 98.286 219.429 219.429z"
+        ></path></svg
+      ><svg viewBox="0 0 1024 1024" class="truthin-lending-settings">
+        <path
+          d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"
+        ></path>
+      </svg>
+      <router-link to="/" class="truthin-lending-navlink">
+        <img
+          alt="image"
+          src="/playground_assets/core%20logo%203-200h.png"
+          class="truthin-lending-logo"
+        />
+      </router-link>
+    </div>
+    <div class="truthin-lending-side-nav-bar">
+      <span class="truthin-lending-loan-name">872346 Jackson Smith</span>
+      <li class="truthin-lending-supplementary-contracts list-item">
+        <span class="truthin-lending-text">Truth in Lending</span>
+      </li>
+      <li class="truthin-lending-miscellaneous list-item">
+        <router-link to="/file-dd-211111" class="truthin-lending-navlink1">
+          Contract &amp; Fees
+        </router-link>
+      </li>
+      <li class="truthin-lending-miscellaneous1 list-item">
+        <router-link to="/file-dd-2111111" class="truthin-lending-navlink2">
+          Warranty
+        </router-link>
+      </li>
+      <li class="truthin-lending-miscellaneous2 list-item">
+        <router-link to="/file-dd-21111111" class="truthin-lending-navlink3">
+          GAP
+        </router-link>
+      </li>
+      <li class="truthin-lending-miscellaneous3 list-item">
+        <router-link to="/file-dd-211111111" class="truthin-lending-navlink4">
+          Service Contract
+        </router-link>
+      </li>
+      <li class="truthin-lending-miscellaneous4 list-item">
+        <router-link to="/file-dd-2111111111" class="truthin-lending-navlink5">
+          Title
+        </router-link>
+      </li>
+      <li class="truthin-lending-miscellaneous5 list-item">
+        <router-link to="/file-dd-21111111111" class="truthin-lending-navlink6">
+          GPS
+        </router-link>
+      </li>
+      <li class="truthin-lending-file-validation-signatures list-item">
+        <router-link to="/file-dd-2111" class="truthin-lending-navlink7">
+          Data Match
+        </router-link>
+      </li>
+      <svg viewBox="0 0 1024 1024" class="truthin-lending-check">
+        <path
+          d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+        ></path>
+      </svg>
+    </div>
+    <svg viewBox="0 0 1024 1024" class="truthin-lending-check1">
+      <path
+        d="M426 726l384-384-60-62-324 324-152-152-60 60zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"
+      ></path>
+    </svg>
+    <span class="truthin-lending-transaction-due-diligence">
+      Transaction Due Diligence
+    </span>
+    <span class="truthin-lending-file-due-diligence">File Due Diligence</span>
+    <span class="truthin-lending-initial-file-validation">Truth in Lending</span>
+    <router-link to="/file-val-signatures" class="truthin-lending-inventory">
+      Inventory
+    </router-link>
+    <span class="truthin-lending-slash">/</span>
+    <span class="truthin-lending-slash1">/</span>
+    <span class="truthin-lending-do-you-have-the-file">Deferred Down</span>
+    <span class="truthin-lending-do-you-have-the-file1">Down Payment</span>
+    <span class="truthin-lending-do-you-have-the-file2">Payment Amount</span>
+    <span class="truthin-lending-do-you-have-the-file3">Term</span>
+    <span class="truthin-lending-do-you-have-the-file4">Payment Frequency</span>
+    <span class="truthin-lending-do-you-have-the-file5">Final Payment</span>
+    <span class="truthin-lending-do-you-have-the-file6">First Payment Date</span>
+    <span class="truthin-lending-do-you-have-the-file7">Total Payments</span>
+    <span class="truthin-lending-do-you-have-the-file8">APR</span>
+    <span class="truthin-lending-is-this-an-original-contract">
+      Finance Charge
+    </span>
+    <span class="truthin-lending-is-there-anything-handwritten">
+      Amount Financed
+    </span>
+    <button class="truthin-lending-save button">
+      <span class="truthin-lending-text1">Save</span>
+    </button>
+    <router-link to="/file-dd-211111" class="truthin-lending-next button">
+      <svg viewBox="0 0 1024 1024" class="truthin-lending-right-arrow">
+        <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+      </svg>
+      <span class="truthin-lending-text2">Next</span>
+    </router-link>
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput01 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput02 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput03 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput04 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput05 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput06 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput07 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput08 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput09 input"
+    />
+    <input
+      type="text"
+      placeholder="placeholder"
+      class="truthin-lending-textinput10 input"
+    />
+    <router-link to="/file-dd-2111" class="truthin-lending-last button">
+      <span class="truthin-lending-text3">Last</span>
+      <svg viewBox="0 0 1024 1024" class="truthin-lending-left-arrow">
+        <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+      </svg>
+    </router-link>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'TruthinLending',
+  metaInfo: {
+    title: '5. Truth in Lending - CORE DD',
+    meta: [
+      {
+        property: 'og:title',
+        content: '5. Truth in Lending - CORE DD',
+      },
+    ],
+  },
+}
+</script>
+
+<style scoped>
 .truthin-lending-container {
   width: 100%;
   display: flex;
@@ -502,3 +689,4 @@
   height: 15px;
   position: absolute;
 }
+</style>

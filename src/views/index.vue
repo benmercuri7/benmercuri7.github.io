@@ -1,3 +1,32 @@
+<template>
+  <div class="index-container">
+    <router-link to="/file-val-signatures" class="index-save button">
+      <span class="index-text">Start Demo</span>
+    </router-link>
+    <img
+      alt="image"
+      src="/playground_assets/core%20logo%203-200h.png"
+      class="index-image"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Index',
+  metaInfo: {
+    title: 'CORE DD',
+    meta: [
+      {
+        property: 'og:title',
+        content: 'CORE DD',
+      },
+    ],
+  },
+}
+</script>
+
+<style scoped>
 .index-container {
   width: 100%;
   display: flex;
@@ -37,3 +66,4 @@
   position: absolute;
   object-fit: cover;
 }
+</style>
